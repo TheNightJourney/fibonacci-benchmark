@@ -3,6 +3,14 @@
 So, this is the fibonacci benchmark file. Welcome to a lot of fun!
 
 ## For Windows:
+
+First, compile the code to make a library object. Just run the following
+code in your terminal:
+
+```compile
+gcc -c mylib/mylib.c
+```
+
 This is the content of the "Makefile" file.
 
 ```makefile
