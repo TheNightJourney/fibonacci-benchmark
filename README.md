@@ -49,6 +49,10 @@ gcc -o main.out main.o mylib.o
 - Space Iterative: main_b_space_iterative
 - Space Recursive: main_b_space_recursive
 
+Quick tip: In order to check the memory space, go to "Task Manager" for Windows users, and "System Monitor" for Linux users.
+The way the code works is that it loops the function, so memory space should stay constant. For execution time, it is immediately printed, so 
+no worries there.
+
 ## Personal Benchmarks
 
 Here are my personal benchmark results:
